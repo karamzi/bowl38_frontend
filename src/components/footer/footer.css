@@ -1,0 +1,31 @@
+/* footer
+====================*/
+
+.footer {
+    position: relative;
+}
+
+.footer:after {
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.block_footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_title p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}

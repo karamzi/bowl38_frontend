@@ -1,0 +1,85 @@
+/* leave_comment
+====================*/
+
+.add_comment {
+    display: flex;
+    padding-bottom: 40px;
+    margin-left: 30px;
+    max-width: 700px;
+    margin-right: 30px;
+}
+
+.form_img {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: #02579a;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.form_img p {
+    font-size: 30px;
+    font-weight: 500;
+    width: auto;
+    height: auto;
+    color: #F5F6F6;
+}
+
+.form {
+    width: 100%;
+}
+
+.message_input input {
+    color: #F5F6F6;
+    font-size: 16px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #8b8e91;
+    transition: all 0.3s ease;
+}
+
+.message_input input:focus {
+    outline: none;
+    border-bottom: 1px solid #f5e1a6;
+
+}
+
+.message_input input:focus::placeholder {
+    color: #F5F6F6;
+}
+
+.add_comment_button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.add_comment_button p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8b8e91;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.add_comment_button input {
+    background-color: rgba(139, 142, 149, 0.8);
+    text-transform: uppercase;
+    padding: 10px 18px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add_comment_button input:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}

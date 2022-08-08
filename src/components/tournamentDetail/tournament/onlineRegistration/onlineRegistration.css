@@ -1,0 +1,110 @@
+.tournament_regulations {
+    margin-bottom: 20px;
+}
+
+.tournament_registration_tables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tournament_registration_table {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    width: 90%;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 25px 2px rgba(34, 60, 80, 0.8);
+}
+
+col {
+    width: fit-content;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 1px 20px;
+}
+
+td {
+    text-align: center;
+}
+
+.table_month {
+    background-color: #bad4f3;
+    text-shadow: 7px 6px 8px rgba(0, 0, 0, 0.83);
+}
+
+.tournament_form {
+    z-index: 5;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.tournament_form select {
+    display: block;
+    margin-right: 20px;
+    border: none;
+    font-size: 17px;
+    padding: 5px 20px;
+    color: #F5F6F6;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.tournament_form select:focus {
+    outline: none;
+}
+
+.input {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    display: block;
+    width: 500px;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.submit {
+    text-shadow: 7px 6px 8px rgba(0, 0, 0, 0.83);
+    font-style: italic;
+    font-size: 14px;
+    color: white;
+    display: block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #ca4a30;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #ca4a30;
+}
+
+.submit:focus {
+    outline: none;
+}
